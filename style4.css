@@ -1,0 +1,47 @@
+#menu {
+    background-color: #d3233a49;
+    font-family: cursive;
+}
+
+#ssilki, #form{
+    background-color: #d3233a49;
+    font-family: cursive;
+}
+
+header main, header aside{
+    background-color: #e60321c7;
+    font-family: cursive;
+    height: 100%;
+}
+
+table td, th{
+  border: 2px solid black;
+}
+
+table {
+  width: 100%;
+  font-family: cursive;
+}
+
+.nechet {
+    background-color:#e60321c7;
+}
+
+.chet{
+    background-color:#d3233a49;
+}
+
+footer{
+    background-color: #e60321c7;
+    font-family: cursive;
+}
+
+@media screen and (min-width: 800px) {
+    #table :nth-child(2){
+        order: 3;
+      }
+      
+    #form :nth-child(3){
+        order: 2;
+      }
+  }
